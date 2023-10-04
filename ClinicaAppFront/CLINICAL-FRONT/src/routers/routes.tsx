@@ -19,8 +19,8 @@ export default function SideRoutes(){
             <Route path="/analisis" element={<Analysis/>}/>
             <Route path="/realizar-examen" element={<TakeExam/>}/>
             <Route path="/resultado-examen" element={<Results/>}/>
-            <Route path="/usuarios" element={<User/>}/>
-            <Route path="/roles" element={<Roles/>}/>
+            <Route path="/configuraciones/usuarios" element={<User/>}/>
+            <Route path="/configuraciones/roles" element={<Roles/>}/>
         </Routes>
     );
 }
